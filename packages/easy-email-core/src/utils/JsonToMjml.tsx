@@ -5,6 +5,8 @@ import { JsonToMjmlOption } from './isProductionMode';
 import React, { useContext } from 'react';
 import { IBlockData } from '@core/typings';
 import { unescape } from 'he';
+import he from 'he';
+
 
 type EmailRenderProps = {
   children?: React.ReactNode;
